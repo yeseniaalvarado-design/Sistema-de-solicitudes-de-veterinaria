@@ -12,7 +12,7 @@ El proyecto se desarrolla como un programa de consola utilizando Python y archiv
 ### Equipo desarrollador
 Miguel Angel Guardia Vergara
 
-Diego 
+Diego Esteban Marin Mahecha
 
 Yesenia Paola Alvarado Arteaga
 
