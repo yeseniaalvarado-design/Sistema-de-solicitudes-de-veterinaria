@@ -71,7 +71,7 @@ Yesenia se caracteriza por ser una persona responsable, disciplinada y observado
 
 ---
 
-## Plan de Proyecto
+## Plan De Proyecto
 
 ### - Cronograma de Actividades.
 El desarrollo del proyecto se divide en fases ágiles desde la semana 1 hasta la semana 16 del semestre académico:
