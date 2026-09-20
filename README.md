@@ -23,12 +23,15 @@ Ingeniería industrial.
 ### - Habilidades y fortalezas
 ### Miguel
 
-Miguel se caracteriza por su **responsabilidad, perseverancia y capacidad de adaptación**. Se desenvuelve con facilidad ante los cambios y los nuevos desafíos, manteniendo una actitud orientada a encontrar soluciones. Además, cuenta con habilidades en el **manejo de herramientas digitales y la resolución de problemas**, especialmente en contextos de trabajo colaborativo, donde aporta ideas y contribuye al cumplimiento eficiente de los objetivos.
+Miguel se caracteriza por su responsabilidad, perseverancia y capacidad de adaptación. Se desenvuelve con facilidad ante los cambios y los nuevos desafíos, manteniendo una actitud orientada a encontrar soluciones. Además, cuenta con habilidades en el manejo de herramientas digitales y la resolución de problemas, especialmente en contextos de trabajo colaborativo, donde aporta ideas y contribuye al cumplimiento eficiente de los objetivos.
 
 ### Diego
 
-Diego se destaca por la **pasión y compromiso** que demuestra en cada una de sus labores. Su responsabilidad y disposición para aprender le permiten asumir nuevos retos con entusiasmo y buscar constantemente oportunidades para mejorar. Asimismo, posee buenas habilidades para el **trabajo colaborativo**, aportando al equipo desde la comunicación, la cooperación y el compromiso con el cumplimiento de los objetivos.
+Diego se destaca por la pasión y compromiso que demuestra en cada una de sus labores. Su responsabilidad y disposición para aprender le permiten asumir nuevos retos con entusiasmo y buscar constantemente oportunidades para mejorar. Asimismo, posee buenas habilidades para el trabajo colaborativo, aportando al equipo desde la comunicación, la cooperación y el compromiso con el cumplimiento de los objetivos.
 
 ### Yesenia
 
-Yesenia se caracteriza por ser una persona **responsable, disciplinada y observadora**. Su capacidad de análisis y pensamiento crítico le permite identificar situaciones que requieren atención y proponer alternativas de solución. Además, tiene facilidad para **potenciar las habilidades de sus compañeros**, promoviendo un ambiente de colaboración y contribuyendo a que el trabajo en equipo sea más organizado, eficiente y orientado a resultados.
+Yesenia se caracteriza por ser una persona responsable, disciplinada y observadora. Su capacidad de análisis y pensamiento crítico le permite identificar situaciones que requieren atención y proponer alternativas de solución. Además, tiene facilidad para potenciar las habilidades de sus compañeros, promoviendo un ambiente de colaboración y contribuyendo a que el trabajo en equipo sea más organizado, eficiente y orientado a resultados.
+
+### - Licencia 
+<a href="https://github.com/yeseniaalvarado-design">PQRPet</a> © 2026 by <a href="https://github.com/yeseniaalvarado-design/Sistema-de-solicitudes-de-veterinaria">Yesenia Alvarado, Miguel Guardia, Diego Marín</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
