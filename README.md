@@ -1,7 +1,7 @@
 # PQRPet
 ## Sistema de solicitudes de veterinaria
 
-
+<img src="https://github.com/yeseniaalvarado-design/Sistema-de-solicitudes-de-veterinaria/blob/8b9c763bffd91cda273fa6245b274a2dc4be8105/Logo%20Pet%20Service.png" alt="Imagen subida" width="300px">
 
 El presente proyecto consiste en la creación de un sistema de gestión para la veterinaria PetService, el nombre PQRPet combina las siglas PQRS con la palabra Pet, haciendo referencia directa al propósito principal del sistema: gestionar Peticiones, Quejas, Reclamos y Sugerencias (PQRS) desarrollado para facilitar el registro, organización, consulta y seguimiento de las solicitudes relacionadas con la atención de perros y gatos.
 
