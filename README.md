@@ -1,10 +1,10 @@
 # PQRPet
-## Sistema de solicitudes de veterinaria
+## Sistema De Solicitudes De Veterinaria
 
 <img src="https://github.com/yeseniaalvarado-design/Sistema-de-solicitudes-de-veterinaria/blob/8b9c763bffd91cda273fa6245b274a2dc4be8105/Logo%20Pet%20Service.png" alt="Imagen subida" width="300px">
 
 ### - Descripción
-El presente proyecto consiste en la creación de un sistema de gestión para la veterinaria PetService, el nombre PQRPet combina las siglas PQRS con la palabra Pet, haciendo referencia directa al propósito principal del sistema: gestionar Peticiones, Quejas, Reclamos y Sugerencias (PQRS) desarrollado para facilitar el registro, organización, consulta y seguimiento de las solicitudes relacionadas con la atención de perros y gatos.
+El presente proyecto consiste en la creación de un sistema de gestión para la atención del servicio veterinario de la Universidad de Antioquia, el nombre PQRPet combina las siglas PQRS con la palabra Pet, haciendo referencia directa al propósito principal del sistema: gestionar Peticiones, Quejas, Reclamos y Sugerencias (PQRS) desarrollado para facilitar el registro, organización, consulta y seguimiento de las solicitudes relacionadas con la atención de perros y gatos.
 
 El sistema permite registrar la información de los solicitantes y de cada PQRS, asignar un número de radicado consecutivo, controlar el estado de las solicitudes y generar información para el análisis y seguimiento de la gestión.
 
@@ -38,22 +38,22 @@ Yesenia se caracteriza por ser una persona responsable, disciplinada y observado
 
 ## Visión Del Proyecto
 
-### Descripción General del Software
+### - Descripción General del Software
 **PQRPet** es un sistema de gestión en consola desarrollado en Python, diseñado para optimizar el registro, seguimiento y control de las Peticiones, Quejas, Reclamos y Sugerencias (PQRS) de los servicios de atención veterinaria para perros y gatos en la Universidad de Antioquia. Reemplaza el proceso tradicional en papel de MEPEGA, garantizando persistencia mediante archivos planos independientes y comprobantes.
 
-### Objetivos del Proyecto
+### - Objetivos del Proyecto
 * **Actualización del proceso:** Evitar el registro a papel y lápiz, automatizando la asignación de números de radicado consecutivos e independientes para cada tipo de PQRS.
 * **Control de tiempos:** Monitorear los plazos de respuesta (máximo 30 días calendario) para evitar vencimientos y generación de nuevas quejas o reclamos.
 * **Análisis de datos:** Consolidar estadísticas clave sobre la atención de mascotas (perros y gatos) y sedes de la UdeA para la toma de decisiones.
 
-### Beneficios
+### - Beneficios
 * Optimización del tiempo de los estudiantes y funcionarios.
 * Trazabilidad y transparencia en el estado de cada solicitud (`Registrada`, `En proceso`, `Solucionada`).
 * Generación de comprobantes de radicado estandarizados de 120 caracteres.
 
 ## Especificaciones 
 
-### Requisitos Funcionales
+### - Requisitos Funcionales
 * **RF-01 (Módulo de Autenticación):** El sistema debe restringir el acceso al menú principal mediante un login obligatorio validando el usuario y contraseña contra el archivo de credenciales autorizadas, con un bloqueo temporal de pantalla tras 3 intentos fallidos.
 * **RF-02 (Registro Consecutivo Independiente):** El sistema debe permitir registrar nuevas PQRS (Peticiones, Quejas, Reclamos o Sugerencias) asignando un ID entero auto-incremental independiente para cada uno de los 4 archivos planos de datos.
 * **RF-03 (Validación de Datos del Solicitante):** El sistema debe validar estrictamente que el nombre no contenga números, que el tipo de documento pertenezca a los permitidos (`CC`, `TI`, `CE`, `PP`, `NIT`), que el número tenga entre 3 y 15 dígitos, y que el teléfono tenga exactamente 10 dígitos.
@@ -63,7 +63,7 @@ Yesenia se caracteriza por ser una persona responsable, disciplinada y observado
 * **RF-07 (Consulta y Actualización de Estado):** El sistema debe permitir consultar los registros activos y actualizar el estado de la PQRS siguiendo obligatoriamente el flujo: `Registrada` `En proceso` `Solucionada`.
 * **RF-08 (Módulo de Estadísticas):** El sistema debe calcular y mostrar en consola métricas clave, iniciando obligatoriamente con el promedio de días en valores enteros que toma dar respuesta a una PQRS.
 
-### Requisitos No Funcionales
+### - Requisitos No Funcionales
 * **RNF-01 (Persistencia en Archivos Planos):** Toda la información debe almacenarse exclusivamente en archivos planos delimitados por barras (`|`) organizados en la carpeta `data/` (`Peticion.txt`, `Queja.txt`, `Reclamo.txt`, `Sugerencia.txt` y el archivo de usuarios).
 * **RNF-02 (Modularidad del Código):** El código fuente en Python debe estructurarse obligatoriamente de forma modular en la carpeta `src/`, separando validaciones (`validaciones.py`), manejo de archivos (`archivos.py`), reportes (`reportes.py`) y el menú principal (`main.py`).
 * **RNF-03 (Usabilidad en Consola):** La interfaz de usuario en consola debe ser limpia, interactiva, intuitiva y mostrar mensajes de error claros ante ingresos inválidos.
@@ -73,7 +73,7 @@ Yesenia se caracteriza por ser una persona responsable, disciplinada y observado
 
 ## Plan de Proyecto
 
-### Cronograma de Actividades.
+### - Cronograma de Actividades.
 El desarrollo del proyecto se divide en fases ágiles desde la semana 1 hasta la semana 16 del semestre académico:
 
 ```text
@@ -82,19 +82,19 @@ Fases / Semanas        | S1-S3 | S4-S6 | S7-S8 | S9 (Entrega 1) | S10-S13 | S14-
 1. Análisis y Visión   |   X   |       |       |                |         |         |                    
 2. Estructura de Datos |       |   X   |       |                |         |         |                    
 3. Desarrollo Python   |       |       |   X   |                |         |         |                    
-4. Entrega 1           |     |       |       |       X        |         |         |                    
+4. Entrega 1           |       |       |       |       X        |         |         |                    
 5. Comprobante         |       |       |       |                |    X    |         |                    
 6. Dashboard Power BI  |       |       |       |                |    X    |         |                    
 7. Pruebas y Ajustes   |       |       |       |                |         |    X    |                    
 8. Entrega Final y Demo|       |       |       |                |         |         |         X
 ```
 
-### Presupuesto y Gestión del Tiempo del Proyecto
-Dado que el proyecto se evalúa en función del esfuerzo y la dedicación académica y no monetaria, el presupuesto se define en **horas de trabajo colaborativo e investigación**:
+### - Presupuesto y Gestión del Tiempo del Proyecto
+Dado que el proyecto se evalúa en función del esfuerzo y la dedicación académica y no monetaria, el presupuesto se define en horas de trabajo colaborativo e investigación:
 
 * **Dedicación mínima total:** 50 horas de trabajo en equipo distribuidas entre los 3 integrantes del grupo.
 * **Distribución equitativa base:** 
   * **Yesenia Paola Alvarado Arteaga:** 16.6 horas (Liderazgo, análisis y documentación).
   * **Miguel Angel Guardia Vergara:** 16.7 horas (Desarrollo en Python y persistencia).
   * **Diego Esteban Marín Mahecha:** 16.7 horas (Pruebas, validación y reportes).
-* **Flexibilidad y Disponibilidad:** De requerirse para cumplir a cabalidad con los objetivos y la calidad del software, **los 3 integrantes destinarán tiempo adicional a requerimiento**, ajustando la disponibilidad según la complejidad de las fases de desarrollo y entrega.
+* **Flexibilidad y Disponibilidad:** De requerirse para cumplir a cabalidad con los objetivos y la calidad del software, los 3 integrantes destinarán tiempo adicional a requerimiento, ajustando la disponibilidad según la complejidad de las fases de desarrollo y entrega.
