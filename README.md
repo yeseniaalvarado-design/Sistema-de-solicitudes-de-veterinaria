@@ -82,8 +82,8 @@ Fases / Semanas        | S1-S3 | S4-S6 | S7-S8 | S9 (Entrega 1) | S10-S13 | S14-
 1. Análisis y Visión   |   X   |       |       |                |         |         |                    
 2. Estructura de Datos |       |   X   |       |                |         |         |                    
 3. Desarrollo Python   |       |       |   X   |                |         |         |                    
-4. Entrega 1 (Puntos 1-7)|     |       |       |       X        |         |         |                    
-5. Comprobante ASCII   |       |       |       |                |    X    |         |                    
+4. Entrega 1           |     |       |       |       X        |         |         |                    
+5. Comprobante         |       |       |       |                |    X    |         |                    
 6. Dashboard Power BI  |       |       |       |                |    X    |         |                    
 7. Pruebas y Ajustes   |       |       |       |                |         |    X    |                    
 8. Entrega Final y Demo|       |       |       |                |         |         |         X
