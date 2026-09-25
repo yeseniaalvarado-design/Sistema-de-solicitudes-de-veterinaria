@@ -1,7 +1,7 @@
 # PQRPet
 ## Sistema De Solicitudes De Veterinaria
 
-<img src="Logo Pet Service,png" alt="Imagen subida" width="300px">
+<img src="../Logo Pet Service.png" alt="Imagen subida" width="300px">
 
 ### - Descripción
 El presente proyecto consiste en la creación de un sistema de gestión para la atención del servicio veterinario de la Universidad de Antioquia, el nombre PQRPet combina las siglas PQRS con la palabra Pet, haciendo referencia directa al propósito principal del sistema: gestionar Peticiones, Quejas, Reclamos y Sugerencias (PQRS) desarrollado para facilitar el registro, organización, consulta y seguimiento de las solicitudes relacionadas con la atención de perros y gatos.
