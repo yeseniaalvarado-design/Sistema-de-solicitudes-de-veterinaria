@@ -84,8 +84,8 @@ El desarrollo del proyecto se divide en fases ágiles desde la semana 1 hasta la
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1. Análisis y Visión | X | | | | | | |
 | 2. Estructura de Datos | | X | | | | | |
-| 3. Desarrollo Python | | | X | | | | |
-| 4. Entrega 1 | | | | X | | | |
+| 3. Entrega 1 | | | X | | | | |
+| 4. Desarrollo Python | | | | X | | | |
 | 5. Comprobante | | | | | X | | |
 | 6. Dashboard Power BI | | | | | X | | |
 | 7. Pruebas y Ajustes | | | | | | X | |
