@@ -76,18 +76,48 @@ Yesenia se caracteriza por ser una persona responsable, disciplinada y observado
 ### - Cronograma de Actividades.
 El desarrollo del proyecto se divide en fases ágiles desde la semana 1 hasta la semana 16 del semestre académico:
 
-```text
-Fases / Semanas        | S1-S3 | S4-S6 | S7-S8 | S9 (Entrega 1) | S10-S13 | S14-S15 | S16 (Sustentación)
------------------------|:-----:|:-----:|:-----:|:--------------:|:-------:|:-------:|:------------------:
-1. Análisis y Visión   |   X   |       |       |                |         |         |                    
-2. Estructura de Datos |       |   X   |       |                |         |         |                    
-3. Desarrollo Python   |       |       |   X   |                |         |         |                    
-4. Entrega 1           |       |       |       |       X        |         |         |                    
-5. Comprobante         |       |       |       |                |    X    |         |                    
-6. Dashboard Power BI  |       |       |       |                |    X    |         |                    
-7. Pruebas y Ajustes   |       |       |       |                |         |    X    |                    
-8. Entrega Final y Demo|       |       |       |                |         |         |         X
-```
+import matplotlib.pyplot as plt
+
+datos = [
+    ["1. Análisis y Visión", "X", "", "", "", "", "", ""],
+    ["2. Estructura de Datos", "", "X", "", "", "", "", ""],
+    ["3. Desarrollo Python", "", "", "X", "", "", "", ""],
+    ["4. Entrega 1", "", "", "", "X", "", "", ""],
+    ["5. Comprobante", "", "", "", "", "X", "", ""],
+    ["6. Dashboard Power BI", "", "", "", "", "X", "", ""],
+    ["7. Pruebas y Ajustes", "", "", "", "", "", "X", ""],
+    ["8. Entrega Final y Demo", "", "", "", "", "", "", "X"]
+]
+
+columnas = [
+    "Fases / Semanas",
+    "S1-S3",
+    "S4-S6",
+    "S7-S8",
+    "S9 (Entrega 1)",
+    "S10-S13",
+    "S14-S15",
+    "S16 (Sustentación)"
+]
+
+fig, ax = plt.subplots(figsize=(14, 5))
+
+ax.axis("off")
+
+tabla = ax.table(
+    cellText=datos,
+    colLabels=columnas,
+    loc="center",
+    cellLoc="center"
+)
+
+tabla.auto_set_font_size(False)
+tabla.set_fontsize(9)
+tabla.scale(1, 2)
+
+plt.title("Cronograma de Actividades")
+
+plt.show()
 
 ### - Presupuesto del Proyecto (Valoración en Horas de Práctica / SMLV)
 
