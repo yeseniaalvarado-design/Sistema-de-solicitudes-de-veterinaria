@@ -80,7 +80,7 @@ El desarrollo del proyecto se divide en fases ágiles desde la semana 1 hasta la
 
 El desarrollo del proyecto se divide en fases ágiles desde la semana 1 hasta la semana 16 del semestre académico:
 
-| Fases / Semanas | S1-S3 | S4-S6 | S7-S8 | S9 (Entrega 1) | S10-S13 | S14-S15 | S16 (Sustentación) |
+| Fases / Semanas | S1-S3 | S4-S6 | S7 (Entrega 1) | S8 - S9 | S10-S13 | S14-S15 | S16 (Sustentación) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1. Análisis y Visión | X | | | | | | |
 | 2. Estructura de Datos | | X | | | | | |
