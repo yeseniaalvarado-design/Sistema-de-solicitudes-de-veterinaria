@@ -89,12 +89,13 @@ Fases / Semanas        | S1-S3 | S4-S6 | S7-S8 | S9 (Entrega 1) | S10-S13 | S14-
 8. Entrega Final y Demo|       |       |       |                |         |         |         X
 ```
 
-### - Presupuesto y Gestión del Tiempo del Proyecto
-Dado que el proyecto se evalúa en función del esfuerzo y la dedicación académica y no monetaria, el presupuesto se define en horas de trabajo colaborativo e investigación:
+### Presupuesto del Proyecto (Valoración en Horas de Práctica / SMLV)
 
-* **Dedicación mínima total:** 50 horas de trabajo en equipo distribuidas entre los 3 integrantes del grupo.
-* **Distribución equitativa base:** 
-  * **Yesenia Paola Alvarado Arteaga:** 16.6 horas (Liderazgo, análisis y documentación).
-  * **Miguel Angel Guardia Vergara:** 16.7 horas (Desarrollo en Python y persistencia).
-  * **Diego Esteban Marín Mahecha:** 16.7 horas (Pruebas, validación y reportes).
-* **Flexibilidad y Disponibilidad:** De requerirse para cumplir a cabalidad con los objetivos y la calidad del software, los 3 integrantes destinarán tiempo adicional a requerimiento, ajustando la disponibilidad según la complejidad de las fases de desarrollo y entrega.
+* **Número de integrantes:** 3 Miembros.
+* **Horas totales de dedicación:** 50 horas mínimas de trabajo colaborativo, desarrollo de software e investigación.
+* **Valor de referencia:** Las horas son tasadas económicamente a valor de hora de práctica profesional académica conforme al SMLV vigente.
+* **Distribución del esfuerzo y costo estimado:**
+  * **Yesenia Paola Alvarado Arteaga (Líder / Análisis):** ~16.6 horas asignadas con su respectiva valoración económica de práctica.
+  * **Miguel Angel Guardia Vergara (Desarrollo Python):** ~16.7 horas asignadas con su respectiva valoración económica de práctica.
+  * **Diego Esteban Marín Mahecha (Pruebas / Reportes):** ~16.7 horas asignadas con su respectiva valoración económica de práctica.
+* **Disponibilidad y Costo Adicional:** En caso de requerir tiempo adicional de desarrollo y ajustes para cumplir a cabalidad con los estándares de calidad del software y los requerimientos del cliente, los 3 integrantes destinarán horas de soporte complementario a requerimiento del proyecto.
