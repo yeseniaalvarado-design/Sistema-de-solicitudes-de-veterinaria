@@ -89,7 +89,7 @@ Fases / Semanas        | S1-S3 | S4-S6 | S7-S8 | S9 (Entrega 1) | S10-S13 | S14-
 8. Entrega Final y Demo|       |       |       |                |         |         |         X
 ```
 
-### Presupuesto del Proyecto (Valoración en Horas de Práctica / SMLV)
+### - Presupuesto del Proyecto (Valoración en Horas de Práctica / SMLV)
 
 * **Número de integrantes:** 3 estudiantes.
 * **Horas totales de dedicación:** 50 horas mínimas de trabajo colaborativo, desarrollo de software e investigación.
