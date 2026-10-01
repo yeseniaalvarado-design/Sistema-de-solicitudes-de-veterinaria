@@ -91,6 +91,66 @@ El desarrollo del proyecto se divide en fases ágiles desde la semana 1 hasta la
 | 7. Pruebas y Ajustes | | | | | | X | |
 | 8. Entrega Final y Demo | | | | | | | X |
 
+---
+
+## Estructura del Repositorio y Directorios del Proyecto
+
+El repositorio del proyectó lo organizamos de manera modular para separar la gestión documental, los datos persistentes, los recursos gráficos y el código fuente en Python para eso usamos las carpetas de clasificacion:
+
+*   **`Actas/`**: Contiene los documentos formales de gestión y colaboración del equipo.
+*   **`Data/`**: Aloja la capa de persistencia en archivos planos independientes estructurados con delimitadores:
+    *   `Peticion.txt`, `Queja.txt`, `Reclamo.txt`, `Sugerencia.txt`: Almacenan las PQRS con IDs consecutivos independientes.
+    *   `usuarios.txt`: Credenciales para el módulo de control de acceso (Login).
+*   **`Imagenes/`**: Almacena elementos gráficos y visuales del proyecto (ej. logotipo oficial de la veterinaria).
+*   **`Readme/`**: Contiene la documentación principal y oficial del sistema (`LEAME.md`).
+*   **`src/`**: Aloja el código fuente modular en Python para la ejecución de la aplicación de consola:
+    *   `main.py`: Menú interactivo y módulo de autenticación con bloqueo por intentos fallidos.
+    *   `validaciones.py`: Módulo con filtros estrictos mediante expresiones regulares.
+    *   `archivos.py`: Módulo de manipulación de archivos planos y generación de consecutivos únicos.
+    *   `reportes.py`: Módulo analítico para el cálculo de estadísticas y promedio de días de respuesta.
+
+---
+
+## Arquitectura Técnica, Librerías y Funciones del Sistema
+
+Para el desarrollo y cumplimiento de los requisitos funcionales y analíticos, el equipo de trabajo tiene pensado implementar las siguientes librerías clasificadas de acuerdo a los compromisos pactados en el objetivo, vision y requisitos del proyecto:
+
+### 1. Control de Fechas y Plazos Legales
+*   **Librería:** `datetime` 
+    *   **Qué hace y qué permite lograr:** Muestra las marcas temporales y deltas de tiempo. Permite capturar la fecha actual de radicación de forma automática y sumar un `timedelta(days=30)` para calcular sin errores humanos la fecha límite legal de respuesta (30 Dias).
+*   **Funciones asociadas:** `calcular_fecha_limite()` y `calcular_dias_transcurridos()`.
+
+### 2. Persistencia y Gestión del Sistema Operativo
+*   **Librería:** `os` 
+    *   **Qué hace y qué permite lograr:** Interactúa con el sistema de archivos local. Permite verificar y crear de forma automática la estructura de carpetas (`data/`, `src/`) y validar la existencia de los archivos `.txt` antes de leerlos o escribir en ellos, evitando caídas del sistema (`FileNotFoundError`).
+*   **Funciones asociadas:** `verificar_directorios()` y `asegurar_existencia_archivos()`.
+
+### 3. Validaciones Estrictas de Datos
+*   **Librería:** `re` 
+    *   **Qué hace y qué permite lograr:** Permite buscar, emparejar y validar patrones complejos de caracteres en cadenas de texto. Garantiza que los campos de correo electrónico, documentos y teléfonos (exactamente 10 dígitos) cumplan con las reglas de negocio sin aceptar caracteres inválidos.
+*   **Funciones asociadas:** `validar_telefono()`, `validar_correo()` y `validar_documento()`.
+
+### 4. Control de Ejecución y Salidas del Sistema
+*   **Librería:** `sys` 
+    *   **Qué hace y qué permite lograr:** Proporciona acceso a parámetros y funciones específicas del intérprete. Permite gestionar salidas limpias y controladas del programa (`sys.exit()`) cuando el usuario cierra sesión o cuando el módulo de seguridad bloquea la consola.
+*   **Funciones asociadas:** `finalizar_programa()`.
+
+### 5. Seguridad y Autenticación en Consola
+*   **Librería:** `getpass` 
+    *   **Qué hace y qué permite lograr:** Oculta los caracteres ingresados al digitar contraseñas, garantizando la privacidad y los estándares básicos de seguridad en el inicio de sesión del operador.
+*   **Funciones asociadas:** `verificar_credenciales_login()` con control de bloqueo temporal tras los 3 intentos fallidos exigidos por la rúbrica.
+
+### 6. Procesamiento Analítico y Estadísticas
+*   **Librería:** `pandas` 
+    *   **Qué hace y qué permite lograr:** Carga y procesa información tabular bajo la estructura de DataFrames. Permite leer masivamente los archivos planos de la carpeta `data/` para filtrar, agrupar y calcular con precisión la **primera estadística obligatoria**: el promedio de días en valores enteros que toma dar respuesta a una PQRS.
+*   **Funciones asociadas:** `calcular_promedio_dias_respuesta()`.
+
+### 7. Visualización Gráfica Complementaria
+*   **Librería:** `matplotlib.pyplot` 
+    *   **Qué hace y qué permite lograr:** Facilita la generación de gráficos estadísticos (barras, distribuciones) para respaldar visualmente los reportes del sistema y complementar el tablero interactivo en Power BI.
+
+**Nota:** En caso de que en el desarrollo del proyecto se requiera utilizar o modificar alguno de las funciones o librerías se puede hacer siempre que no viole e incumpla las políticas de la licencia y garantice el cumplimiento de lo pactado en Requerimiento, Visión y Objetivo del Proyecto 
+
 ### - Presupuesto del Proyecto (Valoración en Horas de Práctica / SMLV)
 
 * **Número de integrantes:** 3 estudiantes.
